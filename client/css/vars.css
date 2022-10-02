@@ -1,0 +1,12 @@
+html[data-theme='dark'] {
+	--text-title: #fff;
+	--text-small: rgb(134, 134, 134);
+	--bg: #000000;
+ 
+}
+html[data-theme='light'] {
+	--text-title: #000;
+	--text-small: rgb(134, 134, 134);
+	--bg: #fff;
+	 
+}
