@@ -1,0 +1,162 @@
+@media (max-height: 850px) {
+	.preview__home {
+		padding-top: 100px !important;
+	}
+}
+@media (max-width: 1100px) {
+	.preview__home h1 {
+		font-size: 110px;
+		line-height: 120px;
+	}
+	.preview__home h3 {
+		font-size: 35px;
+		margin-top: 20px;
+	}
+	.virtual h3 {
+		font-size: 70px;
+	}
+	.virtual p {
+		font-size: 14px;
+	}
+	.nowescape h3 {
+		font-size: 70px;
+	} 
+	.freelance h3 {
+		font-size: 70px;
+	}
+	.freelance p {
+		font-size: 14px;
+	}
+}
+@media (max-width: 1000px) {
+	.nowescape p {
+		padding: 0 66px;
+	}
+	.about__desc {
+		margin-left: 30px;
+	}
+}
+@media (max-width: 850px) {
+	.nowescape p {
+		padding: 0 20px;
+  }
+  .about img {
+	max-width: 350px;
+	max-height: 350px;
+}
+}
+@media (max-width: 768px) {
+	.preview__home h1 {
+		font-size: 96px;
+		line-height: 104px;
+	}
+	.preview__home {
+		padding-top: 257px;
+  }
+  .preview__home h3 {
+		margin-top: 57px;
+  }
+  .home__nav {
+		margin-top: 67px;
+  }
+  .virtial__text-desc {
+		max-width: 619px;
+  }
+  .nowespace__project {
+		display: none;
+  	}
+  .nowescape p {
+		padding: 0 103px;
+	}
+	.nowespace__project-svg-hid {
+		display: block;
+		padding: 20px 60px 60px 60px;
+	}
+	.freelance__text-desc {
+		max-width: 681px;
+	}
+	.about img {
+		max-width: 338px;
+		max-height: 338px;
+  }
+  .about__desc {
+	margin-left: 61px;
+}
+}
+@media (max-width: 675px) {
+	.about {
+		flex-direction: column;
+		align-items: center;
+	}
+	.about__desc {
+		margin-left: 0;
+		margin-top: 53px;
+		max-width: 80%;
+	}
+	.about img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+	.nowespace__project-svg-hid {
+		display: block;
+		padding: 20px 30px 60px 30px;
+ 	 }
+  .nowescape p {
+		padding: 0 51px;
+	}
+}
+@media (max-width: 550px) {
+	.about__desc {
+		max-width: 95%;
+	}
+}
+@media (max-width: 490px) {
+	.preview__home h1 {
+		font-size: 60px;
+		line-height: 66px;
+	}
+	.preview__home h3 {
+		font-size: 21px;
+		margin-top: 24px;
+	}
+	.home__nav {
+		margin-top: 41px;
+  }
+  	.virtual h3 {
+		font-size: 40px;
+	}
+	.nowescape h3 {
+		font-size: 40px;
+  }
+  .nowespace__project-svg-hid {
+		display: block;
+		padding: 20px 0px 60px 0px;
+	}
+	.nowescape p {
+		padding: 0;
+	}
+	.freelance h3 {
+		font-size: 40px;
+	}
+  
+}
+@media (max-width: 360px) {
+	.preview__home {
+		padding-top: 142px !important;
+  }
+  .virtual p {
+	width: 200px;
+	margin: 32px auto;
+	}
+	.virtial__text-desc {
+		margin: 0 !important;
+		width: 100% !important;
+	}
+	.nowespace__project-svg-hid {
+		padding-top: 0;
+	}
+	.nowescape__small-text {
+		width: 240px;
+		margin: 0 auto;
+  }
+}
