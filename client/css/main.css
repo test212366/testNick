@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 *::-webkit-scrollbar {
@@ -360,7 +360,7 @@ html[data-theme='light'] .freelance__project-svg mask {
 	top: -20px;
 }
 .virtual__letter:hover .show {
-	bottom: 15px;
+	bottom: 13px;
  
 }
 .virtual__letter:hover {
@@ -373,7 +373,7 @@ html[data-theme='light'] .freelance__project-svg mask {
 	transform: translateX(-50%);
 	right: 0;
 	width: 100%;
-	top: 14px;
+	top: 12px;
 	font-size: 16px;
 	font-weight: bold ;
 	transition: .3s ease all;
