@@ -22,24 +22,16 @@
 	opacity: 1 !important;
 	transition: 2s ease opacity;
 }
-html[data-theme='dark'] .virtual__projects .element-animation.element-show {
-	opacity: .6 !important;
+ 
+html[data-theme='light'] *::-webkit-scrollbar-track {
+	background-color: rgb(206, 206, 206);
 }
-html[data-theme='dark'] .nowespace__project .element-animation.element-show {
-	opacity: .6 !important;
-}
-html[data-theme='dark'] .freelance__project-svg.element-animation.element-show {
-	opacity: .6 !important;
-}
-html[data-theme='light'] .virtual__projects .element-animation.element-show {
-	opacity: .8 !important;
-}
-html[data-theme='light'] .nowespace__project .element-animation.element-show {
-	opacity: .8 !important;
-}
-html[data-theme='light'] .freelance__project-svg.element-animation.element-show {
-	opacity: .8 !important;
-}
+html[data-theme='light'] *::-webkit-scrollbar-thumb {
+	background-color: rgb(163, 162, 162);
+} 
+ 
+ 
+ 
 html[data-theme='light'] .camera {
 	fill: #000;
 } 
@@ -119,6 +111,7 @@ main {
 	margin-top: 50px;
 	animation-name: showTextProduct;
 	 animation-duration: 1.6s;
+	 font-family: 'Montserrat', sans-serif;
 }
 .home__nav {
 	display: flex;
@@ -137,6 +130,9 @@ main {
 }
 .home__nav button:hover {
 	color: #fff;
+}
+html[data-theme='light'] .home__nav button:hover {
+	color: #AAAAAA;
 }
 .home__nav button:first-child {
 	animation-name: show;
@@ -197,102 +193,102 @@ main {
 }
 
 html[data-theme='light'] .virtual__projects svg path {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .virtual__projects svg {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .virtual__projects svg circle {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .virtual__projects svg line {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .virtual__projects svg rect {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .virtual__projects svg polyline {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 } 
 html[data-theme='light'] .virtual__projects svg mask {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 } 
 
 
 
 
 html[data-theme='light'] .nowespace__project-svg path {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 
  }
  html[data-theme='light'] .nowespace__project-svg g {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .nowespace__project-svg  circle {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .nowespace__project-svg line {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .nowespace__project-svg rect {
-	stroke: #000;
+	stroke: #fff;
 }
 html[data-theme='light'] .nowespace__project-svg polyline {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 } 
 html[data-theme='light'] .nowespace__project-svg mask {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 } 
 html[data-theme='light'] .nowespace__project-svg polygon {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 } 
 
 html[data-theme='light'] .nowespace__project-svg-hid path {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 
  }
  html[data-theme='light'] .nowespace__project-svg-hid g {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .nowespace__project-svg-hid circle {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .nowespace__project-svg-hid line {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .nowespace__project-svg-hid rect {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .nowespace__project-svg-hid polyline {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 } 
 html[data-theme='light'] .nowespace__project-svg-hid mask {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 } 
 
 
 
 html[data-theme='light'] .freelance__project-svg path {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 
 }
 html[data-theme='light'] .freelance__project-svg g {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .freelance__project-svg circle {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .freelance__project-svg line {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .freelance__project-svg rect {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 }
 html[data-theme='light'] .freelance__project-svg polyline {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 } 
 html[data-theme='light'] .freelance__project-svg mask {
-	stroke: #000;
+	stroke: rgba(142, 142, 142, 1);
 } 
 
  
@@ -320,8 +316,10 @@ html[data-theme='light'] .freelance__project-svg mask {
 }
  
 .virtial__text-desc {
+	font-size: 14px;
 	line-height: 22px;
 	max-width: 717px;
+	 
 	color: var(--text-desc) !important; 
 	width: 100%;
 }
@@ -329,7 +327,8 @@ html[data-theme='light'] .freelance__project-svg mask {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	padding-bottom: 55px;
+	padding-bottom: 48px;
+	 
 }
 .virtual__light-top {
 	position: absolute;
@@ -378,13 +377,7 @@ html[data-theme='light'] .freelance__project-svg mask {
 	font-weight: bold ;
 	transition: .3s ease all;
 }
-html[data-theme='light'] .show {
-	color: #000;
-	font-weight: normal ;
-} 
-html[data-theme='light'] .view {
-	font-weight: normal ;
-}
+ 
 .show {
 	position: absolute;
 	transition: .3s ease all;
@@ -488,7 +481,8 @@ html[data-theme='light'] .view {
 }
 .freelance__text-desc {
 	color: var(--text-desc) !important;
-	max-width: 717px;
+	max-width: 740px;
+	font-size: 14px;
 	line-height: 22px;
 	width: 100%;
  
@@ -515,7 +509,7 @@ html[data-theme='light'] .view {
 	font-family: 'Montserrat', sans-serif;
 }
 .about img {
-	border: 1px solid #fff;
+	border: 1px solid rgba(255, 255, 255, 0.6);
 	border-radius: 3px;
 }
 .about__desc p {
@@ -543,7 +537,7 @@ html[data-theme='light'] .lightIMG {
 	display: block;
 }
 html[data-theme='light'] .about img {
-	border-color: #000;
+	border-color: rgba(0, 0, 0, 0.6);
 }
 html[data-theme='light'] .blackIMG {
 	display: none;
@@ -561,12 +555,13 @@ html[data-theme='dark'] .blackIMG {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: var(--bg);
+	background-color: var(--bg-modal);
 	 
 	z-index: -200;
 	opacity: 0;
 	transition: .3s ease all;
 }
+ 
 .modal__overlay.active {
 	z-index: 200;
 	cursor: pointer;
@@ -578,8 +573,8 @@ html[data-theme='dark'] .blackIMG {
 	opacity: 0;
 	top: 50%;
 	left: 50%;
-	max-width: 700px;
-	max-height: 800px;
+	max-width: 1300px;
+	max-height: 100vh;
 	width: 100%;
 	height: 100%;
  
@@ -603,12 +598,33 @@ html[data-theme='dark'] .blackIMG {
 .seePortfolio {
 	position: fixed;
 	top: 0;
+	background-color: rgba(0, 0, 0, 0.35);
 	left: 0;
+	z-index: 204;
 	right: 0;
-	justify-content: space-between;
+	justify-content: center;
 	color: var(--text-small);
-	padding: 20px;
+	padding: 15px;
 	display: flex;
+}
+.wrapper__nav {
+	display: flex;
+	max-width: 1300px;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+.currentIndex {
+	color: #fff;
+	font-size: 14px;
+}
+#fullscreen {
+	display: flex;
+	align-items: center;
+}
+#loop {
+	display: flex;
+	align-items: center;
 }
 .seePortfolio svg {
 	margin-left: 20px;
@@ -617,19 +633,29 @@ html[data-theme='dark'] .blackIMG {
 }
 .nameProject {
 	position: fixed;
-	bottom: 20px;
+	bottom: 0px;
 	left: 0;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	height: 56px;
 	right: 0;
+	background-color: rgba(0, 0, 0, 0.35);
 	font-weight: 100;
 	font-size: 14px;
 	z-index: 202;
 }
 .nameProject p {
 	text-align: center;
-	color: var(--text-title);
+	color: #fff;
+}
+html[data-theme='light'] .seePortfolio svg {
+	fill: #fff;
 }
 html[data-theme='light'] .seePortfolio svg g {
-	fill: #000;
+	fill: #fff;
 }
 html[data-theme='light'] .customBN {
 	color: #000 !important;	 
@@ -637,9 +663,7 @@ html[data-theme='light'] .customBN {
 html[data-theme='light'] .customBP {
 	color: #000 !important;	 
 }
-html[data-theme='light'] .seePortfolio svg {
-	fill: #000 !important;
-}
+ 
 
 
 .seePortfolio svg g {
@@ -650,7 +674,11 @@ html[data-theme='light'] .seePortfolio svg {
 	height: 100vh;
 	object-fit: contain;
  
-	padding-bottom: 120px;
+	padding-bottom: 110px;
+}
+.LetterIMG {
+	height: 90vh;
+	margin: 88px 0 40px 0;
 }
 .customBN {
 	color: #fff !important;
@@ -670,6 +698,7 @@ html[data-theme='light'] .seePortfolio svg {
 	font-size: 25px !important;
 }
 .nav__modal {
+ 
 	display: flex;
 	align-items: center;
 }
