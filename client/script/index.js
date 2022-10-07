@@ -22,69 +22,69 @@ const main = () => {
 
 	const nowescapeProjects = [
 		{
-			img: './assets/Home Search Dropdown.png',
+			img: './assets/Home Search Dropdown.jpg',
 			name: 'Home Search Dropdown'
 		},
 		{
-			img: './assets/Search Result.png',
+			img: './assets/Search Result.jpg',
 			name: 'Search Result'
 		},
 		{
-			img: './assets/Room Booking Payment.png',
+			img: './assets/Room Booking Payment.jpg',
 			name: 'Room Booking Payment'
 		},
 		{
-			img: './assets/Room Page.png',
+			img: './assets/Room Page.jpg',
 			name: 'Room Page'
 		},
 		{
-			img: './assets/Basics.png',
+			img: './assets/Basics.jpg',
 			name: 'Basics'
 		},
 		{
-			img: './assets/Calendar Available.png',
+			img: './assets/Calendar Available.jpg',
 			name: 'Calendar Available'
 		},
 		{
-			img: './assets/Reservation.png',
+			img: './assets/Reservation.jpg',
 			name: 'Reservation'
 		},
 		{
-			img: './assets/Landing Page.png',
+			img: './assets/Landing Page.jpg',
 			name: 'Landing Page'
 		},
 	],
 		freelanceProjects = [
 			{
-				img: './assets/App for London Array company.png',
+				img: './assets/App for London Array company.jpg',
 				name: 'App for London Array company'
 			},
 			{
-				img: './assets/Social app for commerce and charity.png',
+				img: './assets/Social app for commerce and charity.jpg',
 				name: 'Social app for commerce and charity'
 			},
 			{
-				img: './assets/App for tenants to easly ren their landlord.png',
+				img: './assets/App for tenants to easly ren their landlord.jpg',
 				name: 'App for tenants to easly ren their landiord'
 			},
 			{
-				img: './assets/Day time party booking app.png',
+				img: './assets/Day time party booking app.jpg',
 				name: 'Day time party booking app'
 			},
 			{
-				img: './assets/1 page website for disruptive tech start-up.png',
+				img: './assets/1 page website for disruptive tech start-up.jpg',
 				name: '1 page website for disruptive tech start-up'
 			},
 			{
-				img: './assets/Website for Thorndike Development Corporation.png',
+				img: './assets/Website for Thorndike Development Corporation.jpg',
 				name: 'Website for Thorndike Development Corporation'
 			},
 			{
-				img: './assets/Website for Private Proxy Provider.png',
+				img: './assets/Website for Private Proxy Provider.jpg',
 				name: 'Website for Private Proxy Provider'
 			},
 			{
-				img: './assets/Website for Solar Industry Leader.png',
+				img: './assets/Website for Solar Industry Leader.jpg',
 				name: 'Website for Solar industry Leader'
 			},
 			 
@@ -475,8 +475,7 @@ const main = () => {
 			</div>
 		 </section>
 			`)
-			 
-				modalContent.style.maxWidth = '1300px'
+ 
 				modalContent.style.maxHeight = '100vh'
 		 
 				isSeeFreelancei ? freelanceProjects.map(project => document.querySelector('.swiper-wrapper').insertAdjacentHTML('beforeend', `<div class="swiper-slide"><img class="slideIMG" src="${project.img}" alt="pictureProject"/></div>`)  )

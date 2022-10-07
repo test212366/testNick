@@ -33,7 +33,7 @@ html[data-theme='light'] *::-webkit-scrollbar-thumb {
  
  
 html[data-theme='light'] .camera {
-	fill: #000;
+	fill: rgba(142, 142, 142, 1);
 } 
 html[data-theme='dark'] .homeSVG {
 	transform: translateY(5px);
@@ -132,7 +132,7 @@ main {
 	color: #fff;
 }
 html[data-theme='light'] .home__nav button:hover {
-	color: #AAAAAA;
+	color: #020202;
 }
 .home__nav button:first-child {
 	animation-name: show;
@@ -573,7 +573,7 @@ html[data-theme='dark'] .blackIMG {
 	opacity: 0;
 	top: 50%;
 	left: 50%;
-	max-width: 1300px;
+ 
 	max-height: 100vh;
 	width: 100%;
 	height: 100%;
@@ -609,7 +609,7 @@ html[data-theme='dark'] .blackIMG {
 }
 .wrapper__nav {
 	display: flex;
-	max-width: 1300px;
+ 
 	width: 100%;
 	align-items: center;
 	justify-content: space-between;
@@ -673,8 +673,7 @@ html[data-theme='light'] .customBP {
 	width: 100%;
 	height: 100vh;
 	object-fit: contain;
- 
-	padding-bottom: 110px;
+ 	padding-bottom: 107px;
 }
 .LetterIMG {
 	height: 90vh;
