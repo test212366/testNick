@@ -197,7 +197,9 @@ html[data-theme='light'] .home__nav button:hover {
 }
 .virtual p {
 	text-align: center;
+	font-size: 14px;
 }
+ 
 
 html[data-theme='light'] .virtual__projects svg path {
 	stroke: rgba(142, 142, 142, 1);
@@ -316,7 +318,7 @@ html[data-theme='light'] .freelance__project-svg mask {
 .virtual p a {
 	text-decoration: none;
 	color: var(--contact-text);
- 
+	font-size: 14px;
 }
 .virtual__projects {
 	margin: 65px 0 67px 0;
@@ -405,7 +407,11 @@ html[data-theme='light'] .freelance__project-svg mask {
  
 .nowescape__small-text a {
 	text-decoration: none;
+	font-size: 14px;
 	color: var(--contact-text);
+}
+.nowescape__small-text {
+	font-size: 14px;
 }
 .nowescape {
 	display: flex;
@@ -456,6 +462,7 @@ html[data-theme='light'] .freelance__project-svg mask {
 
 .nowespace__project-svg {
 	margin-top: 200px;
+	cursor: pointer;
 }
 
 /* freelance */
@@ -465,6 +472,7 @@ html[data-theme='light'] .freelance__project-svg mask {
 
 .freelance__project-svg {
 	max-height: 636px;
+	cursor: pointer;
 	max-width: 852px;
 	margin-bottom: 66px;
 }

@@ -4,8 +4,9 @@ const main = () => {
 	//show elements in scroll 
 	const appHeight = () => {
 		const doc = document.documentElement
+		
 		const item = document.querySelector('.preview__home')
-		doc.style.setProperty('--app-height', `${item.offsetHeight}px`)
+		if(window.innerHeight < 900) doc.style.setProperty('--app-height', `${item.offsetHeight - 60}px`)
 	}
 	window.addEventListener('resize', appHeight)
 	appHeight()
@@ -245,6 +246,53 @@ const main = () => {
 		}
 		isFullscreen = !isFullscreen
 	}
+
+	const imagesLight = [
+		{
+			src: './assets/VH Screen Shot 01 light.png'
+		},
+		{
+			src: './assets/VH Screen Shot 02 light.jpg'
+		},
+		{
+			src: './assets/VH Screen Shot 03 light.png'
+		},
+		{
+			src: './assets/VH Screen Shot 04 light.png'
+		},
+		{
+			src: './assets/Nowescape light.png'
+		},
+		{
+			src: './assets/Nowescape light.png'
+		},
+		{
+			src: './assets/london-array light.jpg'
+		}
+	],
+		imagesBlack = [
+			{
+				src: './assets/VH Screen Shot 01.png'
+			},
+			{
+				src: './assets/VH Screen Shot 02.png'
+			},
+			{
+				src: './assets/VH Screen Shot 03.png'
+			},
+			{
+				src: './assets/VH Screen Shot 04.png'
+			},
+			{
+				src: './assets/Nowescape.png'
+			},
+			{
+				src: './assets/Nowescape.png'
+			},
+			{
+				src: './assets/london-array.png'
+			}
+		]
 
 	//functions events
 	const setShowModalLetter = (isSeeProject, isSeeFreelancei, isLetter) => {
@@ -529,8 +577,25 @@ const main = () => {
 
 		},
 		setTheme = () => {
- 			if(themeIsDark) document.documentElement.setAttribute('data-theme', 'light')
-			else document.documentElement.setAttribute('data-theme', 'dark')
+ 			if(themeIsDark) {
+				document.documentElement.setAttribute('data-theme', 'light')
+				const items = document.querySelectorAll('.display')
+				items.forEach((item, i) => {
+					item.setAttribute('href', imagesLight[i].src)
+				
+					
+				})
+			} 
+			else {
+				document.documentElement.setAttribute('data-theme', 'light')
+				const items = document.querySelectorAll('.display')
+				items.forEach((item, i) => {
+					item.setAttribute('href', imagesBlack[i].src)
+				
+					
+				})
+				document.documentElement.setAttribute('data-theme', 'dark')
+			} 
 			themeIsDark = !themeIsDark
 		},
 		scrollToAbout = () => {
@@ -556,6 +621,11 @@ const main = () => {
 	changeThemeButton.addEventListener('click', setTheme)
 	//event scroll 
 	seeProjectNowescape.addEventListener('click', () => setShowModalLetter(true))
+	document.querySelector('.nowespace__project-svg').addEventListener('click', () => setShowModalLetter(true))
+	document.querySelector('.freelance__project-svg').addEventListener('click', () => {
+		isSeeFreelance = true
+		setShowModalLetter(true, isSeeFreelance)
+	})
 	aboutButton.addEventListener('click', scrollToAbout)
 	portfolioButton.addEventListener('click', scrollToPortfolio)
 	freelanceButton.addEventListener('click', () => {
