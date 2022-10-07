@@ -66,6 +66,11 @@ main {
 	height: 100vh;
 	transition: .3s ease all;
 }
+.forPhone {
+	transform: none !important;
+	animation: none !important;
+	bottom: -200px !important;
+}
 .bottom__light {
 	position: absolute;
 	bottom: 0;

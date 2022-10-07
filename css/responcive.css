@@ -32,8 +32,12 @@
 	.about__desc {
 		margin-left: 30px;
 	}
+	.virtual__light-top {
+		top:calc(100vh - 60px);
+	}
 }
 @media (max-width: 850px) {
+	
 	.nowescape p {
 		padding: 0 20px;
   }
