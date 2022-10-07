@@ -201,9 +201,7 @@ html[data-theme='light'] .home__nav button:hover {
 }
  
 
-html[data-theme='light'] .virtual__projects svg path {
-	stroke: rgba(142, 142, 142, 1);
-}
+ 
 html[data-theme='light'] .virtual__projects svg {
 	stroke: rgba(142, 142, 142, 1);
 }
@@ -290,9 +288,7 @@ html[data-theme='light'] .freelance__project-svg circle {
 html[data-theme='light'] .freelance__project-svg line {
 	stroke: rgba(142, 142, 142, 1);
 }
-html[data-theme='light'] .freelance__project-svg rect {
-	stroke: rgba(142, 142, 142, 1);
-}
+ 
 html[data-theme='light'] .freelance__project-svg polyline {
 	stroke: rgba(142, 142, 142, 1);
 } 

@@ -252,7 +252,7 @@ const main = () => {
 			src: './assets/VH Screen Shot 01 light.png'
 		},
 		{
-			src: './assets/VH Screen Shot 02 light.jpg'
+			src: './assets/VH Screen Shot 02 light.png'
 		},
 		{
 			src: './assets/VH Screen Shot 03 light.png'
@@ -267,7 +267,7 @@ const main = () => {
 			src: './assets/Nowescape light.png'
 		},
 		{
-			src: './assets/london-array light.jpg'
+			src: './assets/london-array light.png'
 		}
 	],
 		imagesBlack = [
