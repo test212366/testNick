@@ -4,7 +4,9 @@
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 }
-
+:root {
+   --app-height: 100%;
+}
 *::-webkit-scrollbar {
 	width: 8px;
 }
@@ -334,12 +336,14 @@ html[data-theme='light'] .freelance__project-svg mask {
 	justify-content: center;
 	padding-bottom: 48px;
 	 
+	
 }
+ 
 .virtual__light-top {
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 100vh;
+	top: var(--app-height);
    z-index: -1;
 	height: 410px;
 	background: var(--gradient-two);

@@ -2,7 +2,13 @@ import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.brow
 
 const main = () => {
 	//show elements in scroll 
-
+	const appHeight = () => {
+		const doc = document.documentElement
+		const item = document.querySelector('.preview__home')
+		doc.style.setProperty('--app-height', `${item.offsetHeight}px`)
+	}
+	window.addEventListener('resize', appHeight)
+	appHeight()
 	const onEntry = entry => entry.forEach(change =>  change.isIntersecting && change.target.classList.add('element-show'))
 	 
 	const observer = new IntersectionObserver(onEntry, {threshold: [0.5] }),
